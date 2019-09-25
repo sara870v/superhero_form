@@ -1,0 +1,73 @@
+body {
+  /* background-image: url(img/cool-background.png); */
+
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+
+  font-family: "Notable", sans-serif;
+  background: -webkit-linear-gradient(rgb(241, 235, 235), rgb(209, 205, 203));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2,
+h3,
+p {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(241, 235, 235), rgb(209, 205, 203));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+
+.names label {
+  font-family: "Acme", sans-serif;
+  background: -webkit-linear-gradient(rgb(179, 168, 168), rgb(159, 148, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.powers label {
+  background: -webkit-linear-gradient(rgb(179, 168, 168), rgb(159, 148, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: "Acme", sans-serif;
+}
+
+.powers input {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+button {
+  display: flex;
+  padding: 20px;
+  margin: 20px 0 20px 668px;
+  /* background-color: green; */
+  /* border-radius: 10px; */
+  background: -webkit-linear-gradient(rgb(179, 168, 168), rgb(159, 148, 223));
+  font-family: "Notable", sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  /* background-color: #4caf50; Green */
+  color: white;
+}
+
+label {
+  margin: 5px;
+}
